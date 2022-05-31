@@ -16,6 +16,7 @@ import java.util.List;
 public class Main {
     public static List<Player>players = new ArrayList<>();//玩家列表
     public static List<Poker>pokers = new ArrayList<>();//全部扑克牌
+
     public static List<Poker>dzpokers = new ArrayList<>();//地主三张牌
     public static boolean dzisfound = false;//地主确定标志
     public static int dznum;
